@@ -2,6 +2,7 @@
 
 # A remote build cache for [Bazel](https://bazel.build)
 
+
 bazel-remote is a HTTP/1.1 server that is intended to be used as a remote build cache for
 [Bazel](https://bazel.build). The cache contents are stored in a directory on disk. One can specify a maximum cache
 size and bazel-remote will automatically enforce this limit and clean the cache by deleting files based on their
