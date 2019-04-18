@@ -106,3 +106,13 @@ $ docker run -v /path/to/cache/dir:/data \
 
 Please take a look at Bazel's documentation section on [remote
 caching](https://docs.bazel.build/versions/master/remote-caching.html#run-bazel-using-the-remote-cache)
+
+## http://192.168.1.102:8080/status
+```bash
+{
+ "CurrSize": 1700386382,
+ "MaxSize": 10737418240,
+ "NumFiles": 20726,
+ "ServerTime": 1553143020
+}
+```
